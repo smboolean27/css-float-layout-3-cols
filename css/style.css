@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+header {
+  background-color: yellow;
+  height: 150px;
+}
+
+main {
+  margin: 10px 0;
+}
+
+.col-left, .col-right {
+  float: left;
+  background-color: pink;
+  width: 25%;
+}
+
+.col-center {
+  float: left;
+  background-color: purple;
+  width: 48%;
+  margin: 0 1%;
+}
+
+footer {
+  background-color: lightblue;
+  height: 80px;
+}
